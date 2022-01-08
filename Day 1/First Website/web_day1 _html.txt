@@ -1,0 +1,28 @@
+web_day1 _html
+
+HTML- Hypertext Markup Language
+hypertext- a text that redirects
+markup- is structuring and formatting content
+
+Paragraph Bold And Italic:
+<p></p>- paragraph
+<p></p>- is a block level element
+<b></b>- bold
+<i></i>- italic
+<small></small> - to make the text smaller tha usual
+
+heading (h1-h6) are of six types
+
+<strong></strong>- is a semantic tag
+href- hypertext reference; href is a attribute of <a> tag
+image name in html is case sensitive
+<div></div> is a short form of division
+Self closing tag is also call empty tag 
+
+
+
+Home Work- Types of input, What is HR
+
+
+
+

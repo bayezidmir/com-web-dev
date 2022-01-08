@@ -1,0 +1,50 @@
+body {
+  padding-bottom: 800px;
+}
+.h4 {
+  display: inline;
+}
+
+.shopping-list li::after {
+  content: " (this is mendatory)";
+}
+
+.shopping-list li:nth-child(2)::before {
+  content: "If possible, ";
+}
+
+.btn {
+  border: 2px dashed tomato;
+  padding: 10px;
+  background-color: coral;
+  text-decoration: none;
+  color: white;
+}
+
+.yt::after {
+  content: " | (Padding work with Inline Element)";
+}
+
+.btn:hover {
+  background-color: rgb(233, 64, 34);
+}
+
+.btn:visited {
+  color: darkred;
+}
+
+#name:focus {
+  background-color: yellow;
+  text-transform: uppercase;
+}
+
+.blank-div {
+  margin-left: 300px;
+  border: 2px dashed blue;
+  width: 200px;
+  height: 200px;
+  background: rgb(233, 64, 34);
+  position: absolute;
+  top: 200px;
+  left: 150px;
+}

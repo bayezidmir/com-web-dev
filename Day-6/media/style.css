@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+fieldset {
+  width: 400px;
+}
+
+.nav li {
+  list-style-type: none;
+  margin-right: 10px;
+  padding: 10px 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav a:hover {
+  background-color: rgb(107, 122, 149);
+  color: white;
+  border-radius: 5px;
+}
+.nav {
+  background-color: silver;
+  display: flex;
+  justify-content: right;
+  border-radius: 2px;
+}
+
+th,
+td {
+  border: 1px solid;
+  padding: 4px 8px;
+}
+table {
+  border-collapse: collapse;
+}
+
+.dropdown {
+  display: none;
+}
+
+nav > ul > li:hover > ul {
+  display: block;
+}
+
+.dropdown {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown li {
+  margin: 0;
+  padding: 0;
+}

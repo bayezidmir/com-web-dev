@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul class="nav">
+          <a href=""><li>Home</li></a>
+          <a href="form.html"><li>Form</li></a>
+          <a href="table.html"><li>Table</li></a>
+          <a href=""
+            ><li>
+              About Us
+              <ul class="dropdown">
+                <li><a href="">link-1</a></li>
+                <li><a href="">link-2</a></li>
+                <li><a href="">link-3</a></li>
+                <li><a href="">link-4</a></li>
+              </ul>
+            </li></a
+          >
+          <a href=""><li>Contact</li></a>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form action="post">
+        <fieldset>
+          <legend>Personal Details</legend>
+          <p>
+            Full Name :
+            <label for="name"
+              ><input type="text" id="name" placeholder="Enter Your Name"
+            /></label>
+          </p>
+          <p>
+            Email Address :
+            <label for="email"
+              ><input type="email" id="email" placeholder="Enter Your Email"
+            /></label>
+          </p>
+        </fieldset>
+        <fieldset>
+          <legend>Specialization</legend>
+          <p>
+            <label for="Marketing"
+              ><input
+                type="radio"
+                name="Specialization"
+                id="Marketing"
+              />Marketing</label
+            >
+          </p>
+          <p>
+            <label for="Management"
+              ><input
+                type="radio"
+                name="Specialization"
+                id="Management"
+              />Management</label
+            >
+          </p>
+          <p>
+            <label for="HRM"
+              ><input type="radio" name="Specialization" id="HRM" />HRM</label
+            >
+          </p>
+        </fieldset>
+        <fieldset>
+          <legend>Preferred University</legend>
+          <p>
+            <label for="NSU"
+              ><input type="checkbox" name="" id="NSU" />NSU</label
+            >
+          </p>
+          <p>
+            <label for="IUB"
+              ><input type="checkbox" name="" id="IUB" />IUB</label
+            >
+          </p>
+          <p>
+            <label for="EWU"
+              ><input type="checkbox" name="" id="EWU" />EWU</label
+            >
+          </p>
+        </fieldset>
+        <br /><br />
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+    </main>
+  </body>
+</html>

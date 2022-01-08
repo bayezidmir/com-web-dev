@@ -1,0 +1,33 @@
+html5
+___________
+
+audio-video
+
+use "controls" to get the control of audio and video/ <audio src="" controls ></audio>
+for multiple file tag could be 
+<video controls width= "250px" autoplay muted>
+<source src="" type="video.mp4">
+<source src="" type="video.mp4">
+</video>
+To add youtube video to the your website use embed option of certain video provided by yt. they use "iframe" to embed.
+<main> </main> is used as parent div of all the section
+each section can have header with header tag
+<article> </article>is used in html5 instead of blog in html4
+ 
+in the input field name attribute is used to make sure only one option can be selected. Besides, "for" of label is used to target "id" of Input. 
+
+button type "submit" is used for form 
+
+Navbar
+_______
+">" is used between tags in css to refer to style only immediate tags; ex: ul > li / only li will be styled not anything under li
+
+
+d3 for data visulization
+
+Semantics:
+In programming, Semantics refers to the meaning of a piece of code — for example "what effect does running that line of JavaScript have?", or "what purpose or role does that HTML element have" (rather than "what does it look like?".)
+
+- The <mark> tag defines text that should be marked or highlighted.
+- The <select> element is used to add drop down list in html. Inside the <select> tag <option> is used to provide diff option to choose from. both select and option are container tag.
+

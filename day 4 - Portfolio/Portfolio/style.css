@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1em;
+}
+h3 {
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+
+p {
+  line-height: 2em;
+  color: grey;
+  margin-bottom: 20px;
+}
+.hero {
+  display: flex;
+}
+
+.skill,
+.width {
+  width: 50%;
+  padding-right: 40px;
+}
+
+.width img {
+  width: 70%;
+}
+
+.decorate {
+  padding: 50px;
+}
+
+.inline-text-deco {
+  color: #f1c40f;
+}
+
+a {
+  padding: 10px 25px;
+  background-image: linear-gradient(#d35400, #f1c40f);
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.world {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+
+.dream {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.experiences {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position-y: center;
+}
+
+.pro-exp {
+  padding: 15px;
+  border-left: 6px solid;
+  border-image: linear-gradient(#c23616, #9a7b73);
+  border-image-slice: 1;
+  box-shadow: 2px 5px 17px rgba(83, 92, 104, 0.8);
+  margin-right: 20px;
+}
+
+.edu-bac {
+  padding: 15px;
+  border-left: 6px solid;
+  border-image: linear-gradient(#6ab04c, #b5ca75);
+  border-image-slice: 1;
+  box-shadow: 2px 5px 17px rgba(83, 92, 104, 0.8);
+  margin-right: 20px;
+  padding-right: 20px;
+}
+
+footer {
+  text-align: center;
+  padding-top: 10px;
+}

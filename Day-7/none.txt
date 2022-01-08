@@ -1,0 +1,27 @@
+visibility: hidden or visible / this hides the element but kep its space intact
+display: none / this hides the element but does not keep the spcae intact
+
+overflow: hidden/ scroll (over property can be set for x-axis or y-axis)
+white-space property can be used to wrap or no-wrap a sentence (ex- white-space: nowrap; overflow: hidden; text-overflow: ellipsis; and add hidden text inside an inverted comma with html entity -title)
+
+tool for image optimization: photopea , tinypng (better) - lossless
+img "sprite" is used when develop a game
+
+font-awesome to find icons
+
+transform - Say a div inside another div with same height and width. if we want we can change the size of inner or outer div using transform: scale (2x/ .5x/ 3x). can rotate using value "rotate(45deg)".  we can do both rotate and scale using space in between"transform: scale(.5) rotate(45deg).  translate(50px) to position the div inside a div
+_________
+Transition: 
+div {
+  transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+}
+ in a line 
+div { width trnsition-duration timing-function transition-delay}
+
+***the parent div hold the transition property and child div will have the kind of effect we want
+_________
+
+watch again: 7-7 Cricket match animation using transition and transform

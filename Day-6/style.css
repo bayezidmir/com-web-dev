@@ -18,3 +18,21 @@ header {
   display: flex;
   gap: 20px;
 }
+
+.sub-nav {
+  display: none;
+}
+
+nav > ul > li:hover ul {
+  display: block;
+}
+
+nav > ul > li > ul {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+
+.sub-nav > a {
+  padding: 2px;
+}

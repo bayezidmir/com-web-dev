@@ -5,6 +5,7 @@
 
 .swimming {
   position: relative;
+  margin-bottom: 250px;
 }
 
 .water {
@@ -25,4 +26,27 @@
   top: 80px;
   left: 60px;
   z-index: 2;
+}
+
+table,
+table th,
+table td {
+  border: 1px solid;
+  border-collapse: collapse;
+  padding: 5px 10px;
+}
+
+table th {
+  background-image: linear-gradient(black, silver, orange);
+  color: blanchedalmond;
+  border-radius: 5px;
+}
+
+table tr:nth-child(even) {
+  background-color: lightgrey;
+}
+
+.element-type {
+  display: flex;
+  gap: 100px;
 }

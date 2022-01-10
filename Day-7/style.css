@@ -14,3 +14,56 @@
   overflow: scroll;
   overflow-x: hidden;
 }
+
+/* .field {
+  border: 2px solid black;
+}
+
+.field:hover .bat {
+  transform: rotate(-60deg);
+  transform-origin: top right;
+}
+
+.ball {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: chartreuse;
+  position: relative;
+  left: 515px;
+  transition: transform 1s ease-out 0.3s;
+}
+
+.field:hover .ball {
+  transform: translate(750px, -100px);
+}
+
+.bat {
+  transition: transform 0.2s ease-in;
+} */
+.field {
+  border: 1px solid;
+}
+
+.field:hover .bat {
+  transform: rotate(-45deg);
+  transform-origin: top right;
+}
+
+.bat {
+  transition: transform 0.2s ease-out;
+}
+
+.ball {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-image: linear-gradient(limegreen, silver);
+  position: relative;
+  left: 385px;
+  transition: transform 1s ease-out 0.2s;
+}
+
+.field:hover .ball {
+  transform: translate(700px, -100px);
+}

@@ -23,5 +23,6 @@ div { width trnsition-duration timing-function transition-delay}
 
 ***the parent div hold the transition property and child div will have the kind of effect we want
 _________
+While setting keyframe or animation in percentage using position, do not forget to add top and left value to get the animation right
 
-watch again: 7-7 Cricket match animation using transition and transform
+object-fit: cover (to get rid of image stress)

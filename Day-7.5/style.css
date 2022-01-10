@@ -1,28 +1,24 @@
-.swimming div {
-  margin: 5px;
-  padding: 7px;
-}
-
-h1 {
-  margin-bottom: 20px;
-}
-
-
 .swimming {
   position: relative;
+  margin-bottom: 10px;
+  padding: 40px;
 }
 
 .boy {
   position: absolute;
-  top: 5px;
-  left: 20px;
+  top: 0px;
+  left: 60px;
   z-index: 2;
 }
-
+.water {
+  position: relative;
+  top: 25px;
+}
 .ring {
   position: absolute;
-  top: 32px;
-  left: 15px;
+  left: 50px;
+  top: 45px;
+  z-index: 1;
 }
 
 table,

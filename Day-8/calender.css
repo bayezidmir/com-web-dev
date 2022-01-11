@@ -22,3 +22,8 @@
   background-color: rgba(255, 196, 18, 0.312);
   color: grey;
 }
+
+.day {
+  background: rgba(248, 127, 20, 0.639);
+  font-size: 1.2em;
+}

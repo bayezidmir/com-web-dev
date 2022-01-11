@@ -1,0 +1,33 @@
+.food-album {
+  height: 200px;
+  width: 300px;
+  position: relative;
+
+  overflow: hidden;
+}
+
+.food-album img {
+  width: 100%;
+  border-radius: 5px;
+}
+.food-text {
+  position: absolute;
+  background-color: rgba(128, 128, 128, 0.694);
+  width: 280px;
+  top: 0px;
+  left: 0px;
+  padding: 22px 10px;
+  color: beige;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.food-album:hover img {
+  display: block;
+  transform: scale(1.2) rotate(15deg);
+  transition: transform 0.5s ease-in;
+}

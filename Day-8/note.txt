@@ -5,9 +5,18 @@
 --> 'Flex grow is used to expand the size
 
 --> 'Order' is used to organize flex items
---> 
---> 
---> 
+--> Search "CSS breakpoint for media query"
+--> Media Query is use to apply set of style based on browsers' charecteristics inclusing height, width or screen resolution
+--> Available breakpoints
+Bootstrap includes six default breakpoints, sometimes referred to as grid tiers, for building responsively. These breakpoints can be customized if you’re using our source Sass files.
+
+Breakpoint	Class infix	Dimensions
+X-Small	None	<576px
+Small	sm	≥576px
+Medium	md	≥768px
+Large	lg	≥992px
+Extra large	xl	≥1200px
+Extra extra large	xxl	≥1400px
 --> 
 -->  
 --> 

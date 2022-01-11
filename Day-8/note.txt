@@ -1,0 +1,26 @@
+ Flexbox, flex direction justify content align items
+--> To set alignment horigontally in flexbox- justify-content:  flex-start, flex-end, center, space evenly, space between, space around, stretch
+--> To set alignment vertically in flexbox- justify-content:  flex-start, flex-end, center, space evenly, space between, space around, stretch
+
+--> 'Flex grow is used to expand the size
+
+--> 'Order' is used to organize flex items
+--> 
+--> 
+--> 
+--> 
+-->  
+--> 
+--> 
+--> 
+--> 
+--> 
+--> 
+--> 
+--> 
+--> 
+--> 
+--> 
+--> 
+--> 
+--> 

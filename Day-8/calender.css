@@ -1,0 +1,24 @@
+.grid-container {
+  height: 400px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 2em repeat(5, 1fr);
+  gap: 5px;
+}
+
+.date,
+.day {
+  background: rgb(248, 127, 20);
+  padding: 2px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.other-month {
+  background-color: rgba(255, 196, 18, 0.312);
+  color: grey;
+}

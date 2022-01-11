@@ -1,0 +1,21 @@
+.flex-container {
+  height: 400px;
+  display: flex;
+  gap: 5px;
+  border: 2px solid lightslategrey;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.div {
+  width: 200px;
+  border: 2px solid lightgreen;
+}
+
+.two {
+  order: 3;
+}
+
+.four {
+  order: 1;
+}

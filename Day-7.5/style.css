@@ -43,3 +43,139 @@ table tr:nth-child(even) {
   display: flex;
   gap: 100px;
 }
+
+.fab {
+  font-size: 60px;
+}
+
+#anim {
+  position: relative;
+  color: transparent;
+}
+
+#anim::before {
+  content: "I will Practice HTML";
+  position: absolute;
+  color: rgb(7, 173, 7);
+  animation: typing 1s ease-in-out 0 infinite backwards;
+}
+
+@keyframes typing {
+  0% {
+    content: "I will Practice HTML|";
+  }
+  12% {
+    content: "I will Practice HTM|";
+  }
+
+  24% {
+    content: "I will Practice HT|";
+  }
+  36% {
+    content: "I will Practice H|";
+  }
+  48% {
+    content: "I will Practice |";
+  }
+  60% {
+    content: "I will Practice C|";
+  }
+  72% {
+    content: "I will Practice CS|";
+  }
+  100% {
+    content: "I will Practice CSS|";
+  }
+}
+
+.gallery {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery img {
+  width: 100%;
+  height: 100%;
+}
+
+.border {
+  background-color: chocolate;
+  position: absolute;
+  transition: 1s ease-in-out;
+}
+
+.border.left,
+.border.right {
+  height: 270px;
+  width: 4px;
+}
+
+.border.top,
+.border.bottom {
+  width: 292px;
+  height: 4px;
+}
+
+.border.right {
+  right: 5px;
+  top: 100%;
+}
+
+.border.left {
+  bottom: 100%;
+}
+
+.border.bottom {
+  bottom: 30px;
+  right: 100%;
+}
+
+.border.top {
+  left: 100%;
+}
+
+.gallery:hover .border.top {
+  left: 0;
+}
+
+.gallery:hover .border.bottom {
+  right: 5px;
+}
+
+.gallery:hover .border.right {
+  top: 0;
+}
+
+.gallery:hover .border.left {
+  bottom: 30px;
+}
+
+.gallery-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  transform: translateY(400px);
+  transition: 1s ease-in-out;
+  color: white;
+}
+
+.gallery:hover .gallery-text {
+  transform: translateX(10px);
+}
+
+.gallery::before {
+  content: "";
+  background-color: rgba(45, 52, 54, 0.5);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+}
+
+.gallery:hover::before {
+  opacity: 1;
+}

@@ -1,0 +1,2 @@
+Never use width only to set a div or image width if you you want to make your website responsive
+Always use max-width

@@ -1,0 +1,28 @@
+1. Bootstrap: Means strating something from existing resources. 
+Using bootstrap CDN for css and js. Downloading bootstrap packege from website and using min.js and min.css for offline access
+2. Explose bootstrap utility page in bootstrap website; Thereare different class for colors in bs; ex: bg-primary, bg-secondary, bg-success, bg-info, bg-light, bg-dark, bg-transparent, bg-warning, bg-danger etc
+3. Border- border, border-top, border-end, border-start, border-bottom / border border-primary (border with color)/ border-radious: rounded-pill, rounded-circle/ text-primary, text-success, text-danger etc 
+4. Shadow: shadow-lg
+Margin: mb-1 (value could be 1 to 5)
+Padding: p-3 (pt- padding top, ps- padding start, left, pe-padding end, pb-padding bottom)
+Width: w-50 (50% of the screen)
+Height: h-50 (50% of the screen)
+max-width: mw-100
+Max-height: mh-100
+text align: text-start/ text-end/ text-center
+font size: fs 1 to 5
+font weight: fw-bold, fw-light
+to use line break: text-wrap
+5. Image using width (w-50) or img-fluid, img-thumbnail
+for table use 'table', table-hover and table-striped
+
+6. image slider, carousel - use image of same size, to center the carousel use mx-auto
+
+7. card 
+8. Button, button group, spinner, tooltips, scrollspy, toasts, nav
+9. Nav tag, navigation, fixed navbar
+
+
+
+
+HW: Create a list of 70 with tags and description.

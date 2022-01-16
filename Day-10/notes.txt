@@ -1,0 +1,44 @@
+1. UI : User Interface, HOw something or a website look like
+UX: The experience a users gets while using an app or website or anything. Design changes the experience of using something
+
+2. 5 Things to keep in mind before designing a website
+i) Simplicity/ purpose of a website
+ii) Alignment/ Consistency of component in the page /Symmetrical
+iii) Gap/ Whitespcae
+iv) Color/ Primary color/ Color Persona
+v) Typography
+
+3. MOst Important for designning - color and Typography
+
+color: uicolorpicker.component
+high contrast color should not be used. over-all color combination should be soothing. colour palette can be choosen before starting building or designing anything
+
+typography: readable font is suggested to use.
+
+4. It is not necessary to be a good designer to end up becoming a web developer.
+To create a website from looking at other people
+ surf : themeforest.net
+
+to get the pcicture: freepik.com / unsplash.com / for faces- uifaces.co
+to get the icon: icons8.com / ionic.io/ionicons
+to get design idea: dribbble.com / awwwards.com
+
+figma resources - figma.com/community/search?
+
+5. CSS: Cascading style sheet
+Cascading- 
+CSS Specificity Rule: 
+!important -> Inline-styling -> Id -> Class -> Tag
+Embeded CSS styling gets the priority of external css styling
+
+
+6. Custom property- :root{--varName: value}; then use the varName in the vakue of your property; ex: color: var(--varName)
+
+Calc is a css function like url
+
+9. BEM : Block Element Modifier
+
+10. Strategy to learn CSS in future 
+Revising CSS note
+htm5 tags & css properties from tutorial republic
+

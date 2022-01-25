@@ -1,0 +1,9 @@
+1. Three columns multiple row layout: In Bootstrap we usually take row and then declare col horizontally to divide the whole space. However, we can as well divide the col into different row as well to divide them vertically .
+
+2. Nested row and column layout with no gutter: to vanish the space between col and row in grid of Bootstrap use g-0
+
+3. Pseudo element before and after: Use open-quote and close for inverted coma in the property content
+
+-> How to add star after every required field using psedo element
+
+5. 

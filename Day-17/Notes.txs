@@ -1,0 +1,47 @@
+Javascript is a scriptting anguage invented by Brenden Eich and introduced by netscape. Scripting is also called interpreted. 
+To see the result of code in vs code : node fulename.js
+
+Variable : v of var has to be in small letter. 
+
+Data are 2 types: 
+A) Primitive : number, string, null, undefined, boolean
+B) Non-Primitive: Object, Function, Array
+
+number: ex: var a= 12; var age= 25; var fishPrice= 120; var salesCount=5;
+string: var firstName= "Bayezid"; var lastName= "mir'; var trafficCongestion= "20 mins"
+undefined: when a variable is declared without value, ex: var height;
+boolean: it has two values- true and false; ex: var isHonest: true; var isQualified= false, var cousrseCompleted= false (Everything Without a Value, 0 and -1 is False)
+
+JavaScript Coding Conventions: Always put spaces around operators ( = + - * / )
+JavaScript Naming Conventions: Variable and function names written as camelCase, Hyphens are not allowed in JavaScript name, underscores (date_of_birth) is allowed, number at the begining of variable name is not permitted but in the middle or end, dollar sign can be use at the begining but will put in conflict. Quation arounf variable name is not allowed.
+
+
+
+JavaScript Arithmetic Operators
+Arithmetic operators perform arithmetic on numbers (literals or variables).
+
+var applePrice= 234; var quantity= 17; 
+var grapePrice= 234; var quantity= 12; var totalGrapePrice= grapePrice*quantity
+
+Operator	Description
++	Addition ; var totalFruitPrice= totalGrapePrice+ totalApplePrice
+-	Subtraction; var PriceDifference= totalGrapePrice - totalApplePrice
+*	Multiplication;  var totalApplePrice= applePrice*quantity
+**	Exponentiation (ES2016)
+/	Division
+%	Modulus (Remainder)
+
+They are called shorthand mathmatecial operation
+++	Increment by 1; applePrice++; Console.log(applePrice)= 235; to increment by more than 1: applePrice+= 30; console.log(applePrice)= 265
+--	Decrement by 1; grapePrice--; Console.log(grapePrice)= 235; to decrease by more than 1: applePrice-= 30; console.log(applePrice)= 205
+
+Conversion: "parseInt" for a integer. "parseFloat" for a for fractional or floating number
+when taken an input of a number from user it is by default become a string, to convert string to number: "parseInt" for integer, "parseFloat" for floating number are used; 
+ex using "parseInt" : var mathNumber= "95" -> to convert this to number mathNumber=parseInt(mathNumber), consolelog(mathNumber)=95
+ex using "parseFloat" : var mathNumber= "93.55" -> to convert this to number mathNumber=parseInt(mathNumber), consolelog(mathNumber)=93.55
+
+typeof used to know the type of variable; ex: console.log(typeof mathNumber)
+We can find the date using js; var today= new Date();
+
+toFixed is used to set the number of digit we want after decimal; var dollarExchangeRate= 84.364589; var dollarExchangeRate= dollarExchangeRate.toFixed(2)
+% is used to find the remainder; ex: console.log (applePrice % quantity)

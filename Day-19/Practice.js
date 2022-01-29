@@ -1,109 +1,81 @@
-// Declaring a Variable
+/*var onTheRoad = [
+  "Bus",
+  "Private Car",
+  "Rickshaw",
+  "Motorcycle",
+  "People",
+  "CNG",
+];
 
-//numeric variable
-var bottleSize = 5;
-var watchPrice = 1500;
-var laptopSize = 15;
-var distance = 6;
-var mealPrice = 60;
+// Add and Remove coponent inside the array
+onTheRoad.push("Truck");
+console.log(onTheRoad);
+onTheRoad.pop();
+console.log(onTheRoad);
+onTheRoad.unshift("Truck");
+console.log(onTheRoad);
+onTheRoad.shift();
+console.log(onTheRoad);
 
-console.log(typeof bottleSize);
+// Find index number of an item
+var indexOfPeople = onTheRoad.indexOf("People");
+var indexOfMotorCycle = onTheRoad.indexOf("Motorcycle");
+console.log(indexOfMotorCycle);
 
-//String variable
-var babyName = "Sultan";
-var headPhoneBran = "Remax";
-var name = "Bayezid Mir";
-var gender = "Male";
-var result = "Passed";
+// Find an item using index number
+console.log(onTheRoad[4]);
 
-// boolean variable
-var isCharming = true;
-var honesty = true;
-var qualified = true;
-var ifluential = false;
-var fraud = false;
+// Replace an item using index number
+onTheRoad[3] = "Truck";
+console.log(onTheRoad);*/
 
-/*JavaScript Arithmatic Operators
-Operator	Description
-+	Addition
--	Subtraction
-*	Multiplication
-**	Exponentiation (ES2016)
-/	Division
-%	Modulus (Remainder)
-++	Increment
---	Decrement*/
+// var onTheRoad = ["Bus", "Private Car", "Uber", "Motorcycle", "People", "CNG"];
 
-var noOfRipeBanana = 35;
-var noOfGreenBanana = 63;
-var bananaPrice = 11;
-var noOfBuyers = 9;
-var bananaSold = 17;
+// if (onTheRoad[2] == "Rickshaw") {
+//   console.log("You Need a lot of money as transportation cost");
+// } else {
+//   console.log("100 BDT would be enough for transportation cost");
+// }
 
-// Addition
-var totalBanana = noOfRipeBanana + noOfGreenBanana;
+// Check if an item is in the list using condition
 
-// Subtraction
-var unsoldBanana = totalBanana - bananaSold;
-console.log("You have '" + unsoldBanana + "' Bananas left to be sold");
+// if (onTheRoad.indexOf("Van") !== -1) {
+//   console.log("Van is on the Road, So Use it");
+// } else if (onTheRoad.indexOf("Pathao") !== -1) {
+//   console.log("Private Car is On the Road, So Use it");
+// } else if (onTheRoad.indexOf("Motorcycle") !== -1) {
+//   console.log("Motorcycle is On the Road, So Use it");
+// } else {
+//   console.log("you better walk");
+// }
 
-// Multiplication
-var totalPriceOfUnsoldBanana = unsoldBanana * bananaPrice;
-console.log(
-  "You can earn '" +
-    totalPriceOfUnsoldBanana +
-    "' by selling the Bananas in stock"
-);
+// While loop through an array
+/*var i = 0;
+while (i <= 5) {
+  console.log(onTheRoad);
+  i++;
+}*/
 
-// Modulus (Remainder)
+//// For loop through an array
 
-var remainigBananas = unsoldBanana / noOfBuyers;
-console.log("You will have '" + remainigBananas + "' Bananas left");
+/*for (var i = 0; i <= 3; i += 1) {
+  console.log(onTheRoad);
+}*/
 
-// Exponentiation
-var canEarn = 11 ** 9;
-console.log(canEarn);
+// var onRoad = ["Bus", "Private Car", "Uber", "Motorcycle", "People", "CNG"];
 
-// ++	Increment
-noOfRipeBanana++;
+// var i = 0;
+// while (i <= onRoad.length) {
+//   if (onRoad[i] == "Motorcycle") {
+//     break;
+//   }
+//   console.log(onRoad[i]);
+//   i++;
+// }
 
-// --	Decrement
-noOfGreenBanana--;
-
-// Convesrion
-
-var firstName = "Bayezid";
-var surName = "Mir";
-
-var fullName = firstName + " " + surName; // " " <-- is an empty string
-var name = firstName.concat(" " + surName);
-console.log(name);
-console.log(fullName);
-
-var englishMarks = "93";
-var applePrice = "225";
-var ricePrice = "65";
-var houseRent = "8500";
-var transportationCost = "70";
-console.log(typeof houseRent);
-//converting using parseInt(used for an integer) the marks above received as string from a user
-
-englishMarks = parseInt(englishMarks);
-applePrice = parseInt(applePrice);
-ricePrice = parseInt(ricePrice);
-houseRent = parseInt(houseRent);
-transportationCost = parseInt(transportationCost);
-console.log(englishMarks, applePrice, ricePrice, houseRent, transportationCost);
-console.log(typeof houseRent);
-
-// use of parseFloat - we use parseFloat for fractional number
-var pencilPrice = "25.23";
-var waterPrice = "12.33";
-var time = "9.49";
-
-pencilPrice = parseFloat(pencilPrice);
-waterPrice = parseFloat(waterPrice);
-time = parseFloat(time);
-console.log(pencilPrice, waterPrice, time);
-
-console.log(fullName + " is a " + typeof fullName);
+// for (var i = 0; i <= onRoad.length; i++) {
+//   if (onRoad[i] == "People") {
+//     break;
+//   }
+//   console.log("The transport you can use" + onRoad[i]);
+// }

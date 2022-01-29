@@ -1,0 +1,17 @@
+Function: 
+declaring a function with "function" and a name(). Later out of curly bbraces function needs to be called. It is possible to call function several times.
+
+we can set parameter withon the first braces besides the function name, the parameter is also call argument. 
+
+object: object is declared as like a variable but it required curly braces to store information. inside the the braces there could be several property with value. however value that are string needs to be put inside double quote
+
+to read a object's property: to see the name of a property inside an object: console.log(object_name.property);
+
+to replace the objects property's value: object_name.property='new value' or object_name["property"]='new value' or var variableName = "property"; objectname[variableName]="property-value"
+
+Switch: 
+
+
+
+Practiced:
+Array, Simple Condition, Check if an item is in the list using condition,

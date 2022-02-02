@@ -79,3 +79,55 @@ while (i <= 5) {
 //   }
 //   console.log("The transport you can use" + onRoad[i]);
 // }
+
+function divisionalGame(number1, number2) {
+  var division = number1 / number2;
+  console.log(division);
+  return division;
+}
+
+divisionalGame(35, 7);
+
+function multiplication(number1, number2, number3) {
+  var multiply = number1 * number2 * number3;
+  return multiply;
+}
+
+var result = multiplication(35, 55, 19);
+console.log("the result of multiplication is " + result);
+
+function additionGame(number1, number2, number3, number4) {
+  var calculation = number1 + number2 + number3 + number4;
+  return calculation;
+}
+
+var addResult = additionGame(25, 35, 203253, 2469875);
+console.log("the result of addition is " + addResult);
+
+var privateCar = {
+  color: "scarlet",
+  cc: 1400,
+  price: 4400000,
+  mileage: "34KM",
+  weight: "200kg",
+};
+
+privateCar.mileage = "25KM";
+console.log(privateCar.mileage);
+privateCar["mileage"] = "20KM";
+console.log(privateCar.mileage);
+
+var newMileage = "mileage";
+privateCar[newMileage] = "15KM";
+console.log(privateCar.mileage);
+
+var newPrice = "price";
+privateCar[newPrice] = 3000000;
+console.log(privateCar.price);
+
+console.log(privateCar);
+
+
+
+
+switch=0;

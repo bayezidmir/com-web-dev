@@ -1,25 +1,64 @@
-var day = "wednesday";
+// var day = "wednesday";
 
-switch (day) {
-  case "saturday":
-    console.log("Working Day");
+// switch (day) {
+//   case "saturday":
+//     console.log("Working Day");
+//     break;
+//   case "sunday":
+//     console.log("Working Day");
+//     break;
+//   case "monday":
+//     console.log("Working Day");
+//     break;
+//   case "tuesday":
+//     console.log("Weekend");
+//     break;
+//   case "wednesday":
+//     console.log("Weekend");
+//     break;
+//   case "thursday":
+//     console.log("Working Day");
+//     break;
+//   case "friday":
+//     console.log("Working Day");
+//     break;
+// }
+
+var letter = "U";
+
+switch (letter) {
+  case "A":
+    console.log("A is a Vowel");
     break;
-  case "sunday":
-    console.log("Working Day");
+  case "E":
+    console.log("E is a Vowel");
     break;
-  case "monday":
-    console.log("Working Day");
+  case "I":
+    console.log("I is a Vowel");
     break;
-  case "tuesday":
-    console.log("Weekend");
+  case "O":
+    console.log("O is a Vowel");
     break;
-  case "wednesday":
-    console.log("Weekend");
+  case "U":
+    console.log("U is a Vowel");
     break;
-  case "thursday":
-    console.log("Working Day");
-    break;
-  case "friday":
-    console.log("Working Day");
-    break;
+  default:
+    console.log("This is a consonent");
 }
+
+// from quiz
+function getReminder(number1, number2) {
+  number1 % number2;
+}
+
+const reminder = getReminder(12, 2);
+
+console.log(reminder);
+
+// from quiz
+function addNumber(number1, number2) {
+  return "Result is " + number1 + number2;
+}
+
+var result = addNumber(5, 4);
+console.log(typeof result);

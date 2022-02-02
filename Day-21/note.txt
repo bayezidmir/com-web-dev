@@ -1,0 +1,17 @@
+javascript math-- search at google
+variable swap using temporary variable and destructuring
+
+Negative to positive Number
+Rounding off + Floor + Ceiling
+Random Number (between 0 to 20)
+Max and Min in a array
+Sum of Array's element
+Swap
+Highest and lowest Number
+Fibonnacci
+To find word
+
+
+task 1- create a function that takes 3 numbers as parameter and return the largest of three
+task 2- create a function that takes 3 numbers as parameter and return the smallest of three
+Task 3- Find the smallest element of an array

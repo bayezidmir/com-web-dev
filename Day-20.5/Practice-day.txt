@@ -1,0 +1,12 @@
+Core Concept
+Variable- var, let, const
+Array- index, add , remove, change,
+Loop- for and while
+conditionals
+function- return, parameter, call/invoke
+factorial using for and while
+Switch
+
+practice: leap year/ odd/ even/ 
+
+New HW:  Celcius to FarenHeiht, FarenHeiht to Celcius, GPA Calculator, simple interest

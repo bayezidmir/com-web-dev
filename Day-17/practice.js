@@ -32,3 +32,19 @@ console.log(dollarRate);
 
 // remainder
 console.log(appleQuantity % people);
+
+// date
+
+var tamarindPrice = -235.326155489;
+tamarindPrice = Math.abs(tamarindPrice);
+
+// to round
+console.log(Math.round(tamarindPrice));
+
+// random number
+var randomNumber = Math.random() * 100;
+randomNumber = Math.random(randomNumber) * 100;
+console.log(randomNumber);
+console.log(Math.round(randomNumber));
+console.log(Math.floor(randomNumber));
+console.log(Math.ceil(randomNumber));

@@ -1,0 +1,16 @@
+আমার মতে (অন্যদের ডিফারেন্ট অভিমত থাকতেই পারে) তুমি যদি বুটস্ট্রাপ এ ভালো করতে চাও তাহলে এই কয়টা জিনিস মাস্ট লাগবেই লাগবে। বুটস্ট্রাপ CDN লিংক কিভাবে ইউজ করে। Utilities এর মধ্যে-- Background, Borders, Colors, Flex, Sizing, Spacing অনেক ভালো করে জানতে হবে। ইউজ করতে পারতে হবে। মোটামুটি বুঝতে হবে Text, Shadows । আর নাম জানতে হবে। এবং দরকার হলে বের করে ফেলতে পারবে--Display, Float, Interactions, Overflow, Visibility। 
+
+কম্পোনেট এর মধ্যে Buttons, Card, Carousel, Modal, Navbar, Tooltips মাস্ট জানতেই হবে। মোটামুটি দেখে রাখতে হবে Button group, Offcanvas, Pagination, Progress, Spinners । আর এই জিনিসগুলা কোথায় আছে কি জিনিস সেই হিসেবে-- Accordion, Alerts, Badge, Scrollspy, Toasts হালকা একটু দেখে রাখবে। 
+
+রেস্পন্সিভ করার জন্য Breakpoints, Containers, Grid (১২ কলাম সিস্টেম), Gutters তোমাকে মাস্ট জানতেই হবে। আর Columns জিনিসটা একটু দেখে রাখতে হবে। বাকি জিনিসগুলা এর মধ্যে জাস্ট হালকা করে দেখে রাখতে পারো form একটু দেখে রাখো। কি কি আছে। এছাড়াও Images কে কিভাবে রেস্পন্সিভ করতে হয়। Typography এর মধ্যে কি কি আছে। Tables এর মধ্যে কি কি করা যেতে পারে। 
+
+ 
+
+1. When to use bootstarap?
+need a qickly build website
+small and medium organization
+color 
+
+2. ms-auto / means take as much space as possible to the margin start and push the content to the end of line.
+
+me-auto / means take as much space as possible to the margin end and push the content to the start of line

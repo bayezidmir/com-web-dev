@@ -123,13 +123,46 @@ let employeeNames = ["Bayezid", "Mithiun", "Masum", "Shafin", "Tamim"];
   console.log(name);
 } */
 
-for (let i = 0; i <= employeeNames.length - 1; i += 1) {
+/* for (let i = 0; i <= employeeNames.length - 1; i += 1) {
   let employeeName = employeeNames[i];
   console.log(employeeName);
-}
+} */
 
 /* ১০. তোমাকে যদি বলা হয়। একটা array এর মধ্যে ৮০ এর চাইতে বড় সংখ্যা থাকলে সেগুলাকে console log করে দেখাতে সেটা কি তুমি পারবে? তাহলে তুমি সেই কোড করে ফেলো  */
 
+let pokerChips = [75, 65, 80, 95, 120, 65, 92, 45, 86];
+
+for (const pokerChip of pokerChips) {
+  if (pokerChip >= 80) {
+    console.log(pokerChip);
+  }
+}
+
 /* ১১. তিনটা সংখ্যার গুনফল বের করে ফাইনাল রেজাল্ট আউটপুট হিসেবে রিটার্ন করতে হবে। তুমি কি সেই কোড লিখতে পারবে। যদি পারো তাহলে সেই কোড লিখে ফেলো।  */
 
+function multiplication(num1, num2, num3) {
+  let result = num1 * num2 * num3;
+  return result;
+}
+
+let firstNumber = 15;
+let secondNumber = 25;
+let thirdNumber = 22;
+
+console.log(multiplication(firstNumber, secondNumber, thirdNumber));
+
 /* ১২. একটা অবজেক্ট ডিক্লেয়ার করবে। সেটাতে তিনটা প্রপার্টি থাকবে। এবং কোন একটা প্রোপার্টি এর মান চেইঞ্জ করবা।  */
+
+let OnePlus7T = {
+  brandName: "OnePlus",
+  price: 48000,
+  storage: 128,
+  /* RAM: "8 GB",
+  availability: false, */
+};
+console.log(OnePlus7T);
+
+// changing the value of a property
+OnePlus7T.price = 35000;
+
+console.log(OnePlus7T);

@@ -69,7 +69,29 @@ if (goodAtEnglish == true && goodAtMath == true) {
 
 /* ৬. তুমি কি একটা শর্ত পালন করলে একটা কিছু করবে। শর্ত পূরণ না করলে অন্য কিছু একটা করবে এমন কোড লিখতে পারবে। অর্থাৎ তুমি কি if-else এর কোড লিখতে পারবে। পারলে একটা কোড লিখে ফেলো  */
 
+let budget = 20000;
+const phonePrice = 35000;
+const iPadPrice = 22000;
+
+if (budget >= phonePrice) {
+  console.log("You can buy a Phone");
+} else if (budget >= iPadPrice) {
+  console.log("you can purchase an ipad");
+} else {
+  console.log("Save more money to buy a gadget");
+}
+
 /* ৭. তোমাকে যদি বলে একটা while লুপ দিয়ে ৭ থেকে ১৯ পর্যন্ত যতগুলা বিজোড় সংখ্যা আছে সেগুলা দেখাতে। তুমি কি সেটা দেখাতে পারবে? পারলে সেই কোড লিখে ফেলো। না পারলে এই ভিডিও দেখো: 17_5-3 More while loops, odd numbers, even numbers */
+
+// let oddNumbers = [];
+for (let i = 7; i <= 19; i++) {
+  if (i % 2 != 0) {
+    console.log(i);
+    // oddNumbers.push(i);
+  }
+}
+
+// console.log(oddNumbers);
 
 /* ৮. তোমাকে যদি বলা হয় তুমি একটা array ডিক্লেয়ার করবে। এবং সেটার মধ্যে কয়টা উপাদান আছে সেটা বের করবে হবে। সেই array এর এর মধ্যে চতুর্থ পজিশন এর উপাদান চেইঞ্জ করতে হবে। array এর মধ্যে দুইটা উপাদান যোগ করতে হবে। এবং একটা উপাদান কে বের করে দিতে হবে। তুমি কি সেটা করতে পারবে।  */
 

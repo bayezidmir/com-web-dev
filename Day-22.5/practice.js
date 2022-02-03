@@ -83,17 +83,38 @@ if (budget >= phonePrice) {
 
 /* ৭. তোমাকে যদি বলে একটা while লুপ দিয়ে ৭ থেকে ১৯ পর্যন্ত যতগুলা বিজোড় সংখ্যা আছে সেগুলা দেখাতে। তুমি কি সেটা দেখাতে পারবে? পারলে সেই কোড লিখে ফেলো। না পারলে এই ভিডিও দেখো: 17_5-3 More while loops, odd numbers, even numbers */
 
-// let oddNumbers = [];
+let oddNumbers = [];
 for (let i = 7; i <= 19; i++) {
   if (i % 2 != 0) {
-    console.log(i);
-    // oddNumbers.push(i);
+    // console.log(i);
+    oddNumbers.push(i);
   }
 }
 
-// console.log(oddNumbers);
+console.log(oddNumbers);
 
 /* ৮. তোমাকে যদি বলা হয় তুমি একটা array ডিক্লেয়ার করবে। এবং সেটার মধ্যে কয়টা উপাদান আছে সেটা বের করবে হবে। সেই array এর এর মধ্যে চতুর্থ পজিশন এর উপাদান চেইঞ্জ করতে হবে। array এর মধ্যে দুইটা উপাদান যোগ করতে হবে। এবং একটা উপাদান কে বের করে দিতে হবে। তুমি কি সেটা করতে পারবে।  */
+
+let productsAvailable = [
+  "Shirt",
+  "Pant",
+  "T-Shirt",
+  "Belt",
+  "Sneakers",
+  "Sunglasses",
+];
+
+let noOfElements = productsAvailable.length;
+console.log(noOfElements);
+
+productsAvailable[3] = "Executive- Belt";
+console.log(productsAvailable);
+
+productsAvailable.push("Wrist-Watch", "Perfume");
+console.log(productsAvailable);
+
+productsAvailable.pop();
+console.log(productsAvailable);
 
 /* ৯. তুমি কি একটা ফর লুপ দিয়ে কোন একটা array এর সবগুলা উপাদানকে দেখাতে পারবে। সেটা রেগুলার for লুপ হোক বা for of হোক। হলে সেই স্টাইলে একটা কোড লিখে ফেলো।  */
 

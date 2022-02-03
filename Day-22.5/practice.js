@@ -52,8 +52,20 @@ let pomadePrice = 70;
 } else if (teaCupPrice <= pomadePrice) {
   console.log("pomadePrice is more than teaCupPrice ");
 } */
+
 /* ৫. তোমার যদি দুইটা শর্ত পূরণ করতে বলে। এবং দুইটা শর্তের মধ্যে দুইটাই পূরণ করতে হবে। তাহলে তুমি কি সেটা চেক করতে পারবে? একইভাবে যদি বলে তুমি দুইটা শর্তের যেকোন একটা পূরণ করতে পারবে। অর্থাৎ তুমি && এবং || এর ব্যবহার করতে পারো কিনা। যদি পারো তাহলে নিজে নিজে এই রকমের কোড লিখে ফেলো।
  */
+
+let goodAtEnglish = false;
+let goodAtMath = false;
+
+if (goodAtEnglish == true && goodAtMath == true) {
+  console.log("hire him as a Manager");
+} else if (goodAtEnglish == true || goodAtMath == true) {
+  console.log("hire him as assitant manager");
+} else {
+  console.log("hire him as an Executive");
+}
 
 /* ৬. তুমি কি একটা শর্ত পালন করলে একটা কিছু করবে। শর্ত পূরণ না করলে অন্য কিছু একটা করবে এমন কোড লিখতে পারবে। অর্থাৎ তুমি কি if-else এর কোড লিখতে পারবে। পারলে একটা কোড লিখে ফেলো  */
 

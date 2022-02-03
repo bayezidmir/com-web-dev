@@ -2,25 +2,25 @@
 
 /* ১. সিম্পল একটা ফাংশন লিখতে হবে। যেটার নাম হবে feetToInch এবং এই ফাংশন ইনপুট হিসেবে নিবে feet আর রিটার্ন করবে inch । অর্থাৎ এই ফাংশনকে কোন একটা ফিট বলে দিলে সে রিটার্ন হিসেবে বলে দিবে কত ইঞ্চি হয়।  */
 
-/* function feetToInch(feet) {
+function feetToInch(feet) {
   let inch = feet * 12;
   return inch;
 }
 
 let feet = 12;
 let result = feetToInch(feet);
-console.log(result); */
+console.log(result);
 
 /* ২. একদম ফাংশন এর নাম হুবহু centimeterToMeter নাম দিয়ে একটা ফাংশন লিখবে। এই ফাংশনে ইনপুট হিসাবে কেউ সেন্টিমিটার দিবে আর সেই সেন্টিমিটার কে মিটার এ কনভার্ট করে রেজাল্ট রিটার্ন করবে।  */
 
-/* function centimeterToMeter(centimeter) {
+function centimeterToMeter(centimeter) {
   let meter = centimeter / 100;
   return meter;
 }
 
 let centimeter = 600;
 let resultofCMtoM = centimeterToMeter(centimeter);
-console.log(resultofCMtoM); */
+console.log(resultofCMtoM);
 
 /* ৩. আরেকটা ফাংশন লিখবে যেটার নাম লিখবে। যেই ফাংশনের নাম হবে paperRequirements এই ফাংশনের প্যারামিটার হিসেবে তিনটা প্যারামিটার হবে। প্রথম প্যারামিটার হবে তুমি প্রথম বই কত কপি ছাপাতে চাও। সেকেন্ড প্যারামিটার হবে তুমি সেকেন্ড বই কত কপি ছাপাতে চাও। আর থার্ড প্যারামিটার হবে তুমি থার্ড বই কত কপি ছাপাতে চাও। অর্থাৎ কোন বই এর কত কপি ছাপানো হবে সেটাই প্যারামিটার হিসেবে নিবে। 
 
@@ -57,7 +57,7 @@ console.log(result);
 
 function longestName(friends) {
   let longestName = friends[0];
-  for (let friend of friends) {
+  for (var friend of friends) {
     if (friend.length > longestName.length) {
       longestName = friend;
     }
@@ -69,3 +69,16 @@ console.log(longestName(friends));
 
 /* 
 ৫. এইটা একটু ট্রিকি হতে পারে। একটা array এর মধ্যে অনেকগুলা সংখ্যা থাকবে। তোমার কাজ হচ্ছে সংখ্যা গুলা একটার পর একটা করে চেক করা। এবং সংখ্যা গুলা যদি পজিটিভ সংখ্যা হয়। অর্থাৎ শূন্য বা শূন্যের চাইতে বড় হয় তাহলে সেগুলাকে কোন একটা array এর মধ্যে রাখবে। আর যদি নেগেটিভ সংখ্যা হয়। তাহলে লুপটা স্টপ করে দিবে। এবং লুপ বন্ধ করার আগ পর্যন্ত যতগুলা পজিটিভ সংখ্যা পাওয়া গেছে। সেগুলা রিটার্ন করে দিবে।  */
+
+var employeeIds = [589, 362, 456, -17, -90, -78, 954, -72, 753, 456, 258];
+let positiveNumbers = [];
+for (let i = 0; i < employeeIds.length; i++) {
+  let employeeId = employeeIds[i];
+  if (employeeId >= 0) {
+    positiveNumbers.push(employeeId);
+  } else if (employeeId < 0) {
+    break;
+  }
+}
+
+console.log(positiveNumbers);

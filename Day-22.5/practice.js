@@ -95,7 +95,7 @@ console.log(oddNumbers);
 
 /* ৮. তোমাকে যদি বলা হয় তুমি একটা array ডিক্লেয়ার করবে। এবং সেটার মধ্যে কয়টা উপাদান আছে সেটা বের করবে হবে। সেই array এর এর মধ্যে চতুর্থ পজিশন এর উপাদান চেইঞ্জ করতে হবে। array এর মধ্যে দুইটা উপাদান যোগ করতে হবে। এবং একটা উপাদান কে বের করে দিতে হবে। তুমি কি সেটা করতে পারবে।  */
 
-let productsAvailable = [
+/* let productsAvailable = [
   "Shirt",
   "Pant",
   "T-Shirt",
@@ -114,9 +114,19 @@ productsAvailable.push("Wrist-Watch", "Perfume");
 console.log(productsAvailable);
 
 productsAvailable.pop();
-console.log(productsAvailable);
+console.log(productsAvailable); */
 
 /* ৯. তুমি কি একটা ফর লুপ দিয়ে কোন একটা array এর সবগুলা উপাদানকে দেখাতে পারবে। সেটা রেগুলার for লুপ হোক বা for of হোক। হলে সেই স্টাইলে একটা কোড লিখে ফেলো।  */
+let employeeNames = ["Bayezid", "Mithiun", "Masum", "Shafin", "Tamim"];
+
+/* for (const name of employeeNames) {
+  console.log(name);
+} */
+
+for (let i = 0; i <= employeeNames.length - 1; i += 1) {
+  let employeeName = employeeNames[i];
+  console.log(employeeName);
+}
 
 /* ১০. তোমাকে যদি বলা হয়। একটা array এর মধ্যে ৮০ এর চাইতে বড় সংখ্যা থাকলে সেগুলাকে console log করে দেখাতে সেটা কি তুমি পারবে? তাহলে তুমি সেই কোড করে ফেলো  */
 

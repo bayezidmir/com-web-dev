@@ -1,0 +1,3 @@
+onclick in html button is used to show an event on  click 
+
+anonymous function- function that has no name and used instantly

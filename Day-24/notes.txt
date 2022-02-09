@@ -1,0 +1,45 @@
+Javascript: is a high-level, interpreted, just-in-time scripting llanguage to create client size application
+high-level language: a language that is hard for computer to understand but human being can understand easily. for low-level language it is vice-versa
+programming-language: is a language to communicate with computer
+JavaScript runs from top to bottom 
+
+DOM:
+The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects; that way, programming languages can interact with the page.
+
+Object: Bunch of charecter
+Model: A copy or prototype or a replica of original one
+
+
+document.getElementsByTagName- is a tag name thus require parameter. if tag is string then keep them within an inverted commma;
+ex: document.getElementsByTagName('h3')
+
+we can find an tag (element) from html by using "getElementsByTagName", "getElementById" "getElementsByClassName","getElementByClassName" ,"querySelector", "querySelectorAll" and can chage the style and text using .style and .innerText. ex: document.getElementById('id).style.color="red" ,  document.getElementById('id).innerText="hello world" 
+
+using querySelector for multiple item with same class or tag will provide you only the first item. to get get all the element with same same tag or class use querySelectorAll
+
+
+when we use querySelector we have to use '.' for class '#' for ID 
+
+getAttribute("attribute name")- used to get the element within a tag
+setAttribute("attribute name")- used to set new element within a tag
+parentNode("attribute name")- used to get the parent tag of that tag
+childNodes("attribute name")- used to get the child within a tag
+
+Create HTML elements using Javascript : 
+createElement use to add element ot html using jS 
+
+
+ appendChild
+
+
+
+ adding external script file 
+ find certain tag from HTML 
+ changing style of certain element 
+ adding ID to get specific element 
+ querySelector, getElementByID, getElementsByClassName, getElementsByTagName
+ changing text of certain tag usinf innerText 
+ using appendChild to add tag and text 
+ using innerHTML to add a section,
+ addding class to certain tag using js 
+ removechild to remove something from a list 

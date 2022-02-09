@@ -43,3 +43,5 @@ createElement use to add element ot html using jS
  using innerHTML to add a section,
  addding class to certain tag using js 
  removechild to remove something from a list 
+
+ ``- this is called carret

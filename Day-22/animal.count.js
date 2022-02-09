@@ -1,3 +1,10 @@
+/* let sum = 0;
+for (let i = 0; i <= 3; i++) {
+  sum = sum + i;
+}
+console.log(sum);
+ */
+
 let firstTenMiles = 10;
 let secondTenMiles = 50;
 let restMilesAnimal = 100;

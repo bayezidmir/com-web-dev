@@ -1,0 +1,22 @@
+common events: onclick; mouseover, mouseout, keydown
+onclick in html button is used to show an event on  click 
+
+anonymous function- function that has no name and used instantly
+
+event bubble- Event bubbling is a term JavaScript . It relates to the order in which event handlers are called when one element is nested inside a second element, and both elements have registered a listener for the same event. in a nutshell- propegar=ting an event from lowest to the upward
+
+stopPropagation: is used to stop propagation to upword
+
+event is a default parameter in js DOM
+event.target.value to get the input user provided
+
+
+Search Google - javaScript Events
+
+add comment to comment section:
+first we need to find the button through click of which comment will be added. then have to add function through addeventlister to the button. 
+first we have to find the comments box and get the value of comment box and create a tag to which comment will added using innerText. then we have to add the newly created paragraph to the parent of cpmment area using appendChild
+
+
+
+

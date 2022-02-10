@@ -11,12 +11,11 @@
 }); */
 
 // Practie
-const userEmail = document.getElementById("user-email").value;
-const userPassword = document.getElementById("user-password").value;
 
-// validation Login Credential
 document.getElementById("login-submit").addEventListener("click", function () {
-  if (userEmail == "son@father.com" && userPassword == "123456") {
+  const userEmail = document.getElementById("user-email").value;
+  const userPassword = document.getElementById("user-password").value;
+  if (userEmail == "son@father.com" && userPassword == "12345") {
     window.location.href = "banking.html";
   }
 });

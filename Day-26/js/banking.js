@@ -1,4 +1,4 @@
-// handle deposit button event
+/* // handle deposit button event
 document
   .getElementById("deposit-button")
   .addEventListener("click", function () {
@@ -48,3 +48,4 @@ document
     // clear withdrawal input
     withdrawInput.value = "";
   });
+ */

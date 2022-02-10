@@ -1,4 +1,4 @@
-document.getElementById("login-submit").addEventListener("click", function () {
+/* document.getElementById("login-submit").addEventListener("click", function () {
   // get user email
   const userEmail = document.getElementById("user-email").value;
   // get user Password
@@ -6,6 +6,17 @@ document.getElementById("login-submit").addEventListener("click", function () {
 
   // validation- check email and password
   if (userEmail == "sontan@baap.com" && userPassword == "123456") {
+    window.location.href = "banking.html";
+  }
+}); */
+
+// Practie
+const userEmail = document.getElementById("user-email").value;
+const userPassword = document.getElementById("user-password").value;
+
+// validation Login Credential
+document.getElementById("login-submit").addEventListener("click", function () {
+  if (userEmail == "son@father.com" && userPassword == "123456") {
     window.location.href = "banking.html";
   }
 });

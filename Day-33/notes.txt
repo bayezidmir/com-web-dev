@@ -12,3 +12,11 @@ v-3:
 
 
 JSON Placeholder website 
+fetch- go for and bring back(tule nie asha)
+fetch('web url')//do not use semicolon. from this line to next three line is a single line
+.then(response=>response.json())//response is my given parameter. few people name it as res
+.then(json=>console.log(json))
+
+
+v-4
+loading and sending data into an function

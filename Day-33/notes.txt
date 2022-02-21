@@ -20,3 +20,6 @@ fetch('web url')//do not use semicolon. from this line to next three line is a s
 
 v-4
 loading and sending data into an function
+
+v-5:
+loading data using fetch and displaying them into UI using appendChild

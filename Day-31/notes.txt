@@ -1,0 +1,30 @@
+Variable:
+
+const- when we do not need to reasign value to a variable in another line
+let- when we need to reassign value to a variable in another line
+
+Template String:
+``- this is called bactick, which we can use for template string. Within a template string we can insert variable followig this ${}
+ex: `this is Bayezid Mir who is a citizen of ${variable-name}.`
+
+
+Default Parameter:
+setting a default value of a function's parameter when no value is provided of particular variable
+ex: function longestName(name='bayezid'){
+  //up there bayezid is the default value. if anyone calls or invoke function without providing parameter value he will get Bayezid as longest name
+
+}
+
+Spread operator:
+using three dot before an array convert that to something without third braces
+ex: const numbers=[1,2,3,4,5,6,7,8,9];
+taking "numbers" value to another array. const anotherNumbers=[...numbers,25,35,40]; 25, 35 & 40 is the number I have added extra to the new variable
+
+Arrow Function: 
+const ajobJinish=(a,b)=>a+b //arrow function with implicit return
+const ajobBoro=(a,b)=>{
+  connst sum= a+b;
+  const diff=a-b;
+  const multiplicationOf=sum*diff;
+  return multiplicationOf; // arrow function with explicit return
+}

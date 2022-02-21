@@ -20,3 +20,13 @@ function namesConcate() {
 }
 
 console.log(namesConcate("Bayezid", "mir"));
+
+function summa() {
+  let sum = 0;
+  for (let number of arguments) {
+    sum = sum + number;
+  }
+  return sum;
+}
+
+console.log(summa(35, 45, 65, 75));

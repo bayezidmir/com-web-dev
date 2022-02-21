@@ -1,0 +1,4 @@
+27.5: if there are things within a application that are repeted in a code block we can take those things and put them inside a function and use that function instead of those repeated code to make the code look clean.
+
+27.6: applied the concept of vid 27.5
+27.7: use "debugger" to debug

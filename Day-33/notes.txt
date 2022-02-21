@@ -1,0 +1,14 @@
+v-1: 
+API- Application Programming Interface is a tech that fetch data from server and allow us to use or show at our website
+
+v-2: 
+Summary- stringifying an object. Converting stringified data into object using JSON.parse
+JSON stands for "JavaScript object Notation". notation is a sytem to write something. When we order from js to a server for sth we get data as JSON 
+
+JSON.stringifies(objectName) - converts objects into a text. Object turns into an string 
+JSON.parse(stringified objectName name)- we can easily access element of parse data since it turned into an object
+
+v-3:
+
+
+JSON Placeholder website 

@@ -8,7 +8,7 @@ const friends = [
   "Abul",
 ];
 
-const sortedFriends = friends.sort();
+/* const sortedFriends = friends.sort();
 console.log(sortedFriends);
 console.log(friends.reverse());
 
@@ -22,4 +22,10 @@ console.log(sortedmarks);
 const sortedmarksReverse = marks.sort(function (a, b) {
   return b - a;
 });
-console.log(sortedmarksReverse);
+console.log(sortedmarksReverse); */
+
+// const daf = friends.sort();
+// console.log(daf);
+
+const adv = friends.reverse();
+console.log(adv);

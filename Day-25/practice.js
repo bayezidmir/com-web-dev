@@ -32,7 +32,7 @@ document.getElementById("to-grey").addEventListener("mouseenter", function () {
 }); */
 
 // deleting information using button
-/* const deleteBtn = document.getElementById("delete-btn");
+const deleteBtn = document.getElementById("delete-btn");
 deleteBtn.addEventListener("click", function () {
   document.getElementById("important-text").style.display = "none";
 });
@@ -42,7 +42,7 @@ document
     if (event.target.value == "delete") {
       deleteBtn.removeAttribute("disabled");
     }
-  }); */
+  });
 
 // Add using button and delete onclick of Item instantly
 

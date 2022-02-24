@@ -14,15 +14,8 @@ const displayUser = (users) => {
       <p>Gender: ${userInfo.gender}</p>
       <p>Emial: ${userInfo.email}</p>
       <p>Country: ${userInfo.location.country}</p>
-      <p>Country: ${userInfo.phone}</p>
+      <p>Phone: ${userInfo.phone}</p>
       <img src="${userInfo.picture.medium}">
       
    `;
-  // const fullName = document.createElement("div");
-  // fullName.innerHTML = `
-  //     <p>${userInfo.name.title}</p>
-  //     <p>${userInfo.name.first}</p>
-  //     <p>${userInfo.name.last}</p>
-  // `;
-  // randomName.innerText = fullName;
 };

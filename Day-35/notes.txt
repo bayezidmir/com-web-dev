@@ -58,3 +58,5 @@ hoisting: is JavaScript's default behavior of moving all declarations to the top
 closure, encapsulation, private: when you return a function from another function the function which is being returned create a closure and encapsulation  or keeps a private reference, which can not be accessed from outside, inside of itself 
 
 callback function: when we send a function as a parameter and then we call that parameter function inside another function is called callback function
+
+type of null is an object 

@@ -1,0 +1,60 @@
+To know the varibale type in JS, one must look at the right side of equals to; ex const a=120, let catColor="red", var isHealthy= true, Since variable need not to be declared at the left side of variable, thus JS is called dynamic type language.
+
+
+There are 7 data types in JS- 
+Primitive Data Type- These are immutable data type
+1. Number
+2. String
+3. Boolean
+4. Undefined
+5. Null 
+6. Symbol
+
+Non-Primitive Data Type
+7. Object
+
+
+Any number be it negative or postive except '0' or is considered as truthy
+Any string including white space, "0", "false" is considered as truthy
+When value of a variable is not defined it is falsy and Undefined
+Null is a falsy variable
+NaN is a falsy variable
+[]- empty array is truthy
+{}- empty object is truthy
+anything that is no tfalsy is truthy
+
+
+Why we get undefined for the following reasons
+
+When variable is declared but value is not assigned
+when we do not return anything from a function 
+when we write return but do not return anythhing
+when we do not pass argument against a parameter we get undefined 
+when we try to access a property of an that does not exist we get undefined
+Accessing array element out of range
+accessing deleted element of an array 
+setting explicitly the valaue of a variable undefined will result in undefined 
+
+
+undefined vs Null
+you will only get null when you explicitly set null as a value of a variable 
+
+double equal check for value only and triple equal checks strictly for value and type
+type casting or type conversion, implicit coercion
+
+local Scope- when we declare something inside a function, we can use that declared variable inside that function only. this is called local Scope
+
+global scope: variable declared outside of a function can also be used inside a function. this is called global scope
+
+block scope- anything inside second braces is block scoped
+
+variable declared with var is globally scoped
+global leaking: if by mistake we declare a variable inside a function without using var, let, const , the variable converts to global variable automatically. this is called global leaking
+
+
+hoisting: is JavaScript's default behavior of moving all declarations to the top of the current scope 
+
+
+closure, encapsulation, private: when you return a function from another function the function which is being returned create a closure and encapsulation  or keeps a private reference, which can not be accessed from outside, inside of itself 
+
+callback function: when we send a function as a parameter and then we call that parameter function inside another function is called callback function

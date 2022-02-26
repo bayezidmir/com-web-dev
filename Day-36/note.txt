@@ -1,0 +1,27 @@
+object literal, ex: const student={name:'bayezid', id:0589}
+
+object contructor
+const employee= new Object()
+
+const human=Object.create(null)
+const human=Object.create(student)
+console.log(human.id)
+
+class People{
+  name;
+  age;
+  constructor(name,age){
+ this.name=name
+ this.age=age
+  }
+}
+
+syntectical sugar - declaring object from the value of class
+
+const bottle={
+  color: "green", storage:"2 litre"
+}
+
+there  color: "green" together is called key value pair, color is the key and green is the value
+using Object.entries we get the return of two dimensional arrays
+sealing an object allow modification of object value but does not allow delete or add element. but freeze does not even allow modification

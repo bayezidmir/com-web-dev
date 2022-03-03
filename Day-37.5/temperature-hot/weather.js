@@ -32,6 +32,7 @@ searchButton.addEventListener("click", () => {
     .then((res) => res.json())
     .then((data) => displayTemparature(data.list[0]))
     .catch((error) => displayError(error));
+  document.getElementById("city-name").value = "";
 });
 
 const displayError = (error) => {

@@ -7,15 +7,23 @@ const tempFunction = (id, result) => {
   document.getElementById(id).innerText = result;
 };
 
+const errorMessage = (id, display) => {
+  document.getElementById(id).style.display = display;
+};
+
 const searchButton = document.getElementById("search-button");
 
 searchButton.addEventListener("click", () => {
   const cityName = document.getElementById("city-name").value;
   if (cityName === "") {
-    alert`Please Write a City Name, please`;
+    errorMessage("empty-field", "block");
+    errorMessage("numeric-error", "none");
+    errorMessage("no-data", "none");
     return;
   } else if (isNaN(cityName) !== true) {
-    alert`Alphabets only`;
+    errorMessage("empty-field", "none");
+    errorMessage("numeric-error", "block");
+    errorMessage("no-data", "none");
     return;
   }
   const url = `https://api.openweathermap.org/data/2.5/find?q=${cityName}&units=metric&appid=1ca69af22ab1a4f6c1af2c6bd063203a`;
@@ -27,17 +35,19 @@ searchButton.addEventListener("click", () => {
 });
 
 const displayError = (error) => {
-  alert`something went wrong please try later`;
+  errorMessage("empty-field", "none");
+  errorMessage("numeric-error", "none");
+  errorMessage("no-data", "block");
   return;
 };
+
 const displayTemparature = (weatherData) => {
   // if (weatherData.keys.length)
-  console.log(weatherData);
   const keys = Object.keys(weatherData);
-  console.log(keys.length);
   if (keys.length > 1) {
     console.log("empty");
   }
+
   tempFunction("city", weatherData.name);
   tempFunction("temp", weatherData.main.temp);
   tempFunction("condition", weatherData.weather[0].main);

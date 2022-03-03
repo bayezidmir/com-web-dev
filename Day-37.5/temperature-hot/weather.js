@@ -11,5 +11,13 @@ searchButton.addEventListener("click", () => {
   //api.openweathermap.org/data/2.5/find?q=London&units=metric
   https: fetch(url)
     .then((res) => res.json())
-    .then((data) => console.log(data));
+    .then((data) => displayTemparature(data.list[0]));
 });
+
+const displayTemparature = (weatherData) => {
+  console.log(weatherData);
+  document.getElementById("city").innerText = weatherData.name;
+  document.getElementById("temp").innerText = weatherData.main.temp;
+  document.getElementById("condition").innerText =
+    weatherData.weather[0].description;
+};

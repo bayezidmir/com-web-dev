@@ -48,3 +48,70 @@ const indexOfAbed = newEmplyee.indexOf("Abed");
 console.log(indexOfAbed);
 const employeeInIndex1 = newEmplyee[1];
 console.log(employeeInIndex1);
+
+// 4. Loop
+
+// for loop
+/* const oldEmployeeName = [
+  "Bayezid Mir",
+  "Nafis Shahnewaz",
+  "Arif Hasan rajeeb",
+  "Azim",
+]; */
+for (let i = 0; i < oldEmployeeName.length; i++) {
+  const employee = oldEmployeeName[i];
+  console.log(employee);
+}
+
+// While loop
+let i = 0;
+while (i < oldEmployeeName.length) {
+  const employee = oldEmployeeName[i];
+  console.log(employee);
+  i++;
+}
+
+for (const employee of oldEmployeeName) {
+  console.log(employee);
+}
+
+// Function
+function addition(para1, para2) {
+  return para1 + para2;
+}
+
+const result = addition(25, 35);
+console.log(result);
+
+//Object
+const onePlus7T = {
+  Brand: "OnePlus",
+  MadeIn: "China",
+  Price: 720,
+  Feature: {
+    Display: '6.5"',
+    Storage: "128 GB",
+    Camera: {
+      Front: "32 pixels",
+      Back: "64 Pixels",
+    },
+  },
+};
+
+const storage = onePlus7T.Feature.Storage;
+console.log(storage);
+// delete onePlus7T.MadeIn;
+Object.seal(onePlus7T);
+delete onePlus7T.MadeIn;
+console.log(onePlus7T);
+
+const brand = onePlus7T["Brand"];
+console.log(brand);
+const made = "MadeIn";
+const madeIn = onePlus7T[made];
+console.log(madeIn);
+
+const keysofOnplus = Object.keys(onePlus7T);
+console.log(keysofOnplus);
+const valuesOfOneplus = Object.values(onePlus7T);
+console.log(valuesOfOneplus);

@@ -38,11 +38,11 @@ const availability = products.map((product) => product.availability);
 // console.log(brandName, nameList, priceList, availability);
 
 // for each
-products.forEach((product) => console.log(product.name));
-products.forEach((product) => console.log(product.price));
-products.forEach((product) => console.log(product.availability));
-products.forEach((product) => console.log(product.brand));
-products.forEach((product) => console.log(product.condition));
+// products.forEach((product) => console.log(product.name));
+// products.forEach((product) => console.log(product.price));
+// products.forEach((product) => console.log(product.availability));
+// products.forEach((product) => console.log(product.brand));
+// products.forEach((product) => console.log(product.condition));
 
 // filter
 const productOfCasio = products.filter((product) =>
@@ -52,7 +52,21 @@ const productOfCasio = products.filter((product) =>
 const productsInFreshCondition = products.filter((product) =>
   product.condition.includes("fresh")
 );
-console.log(productsInFreshCondition);
+// console.log(productsInFreshCondition);
 
 const expensiveProducts = products.filter((product) => product.price > 100);
-console.log(expensiveProducts);
+// console.log(expensiveProducts);
+
+const discontinuedProducts = products.filter((product) =>
+  product.availability.valueOf(true)
+);
+
+// console.log(discontinuedProducts);
+
+// find
+
+const casioProduct = products.find((product) =>
+  product.brand.includes("Casio")
+);
+
+console.log(casioProduct);

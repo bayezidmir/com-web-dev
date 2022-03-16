@@ -1,0 +1,8 @@
+v-2
+JSX- javascript XML
+__To get auto suggestion for html tag in react go to settings-emmet-include language
+JSX allows us to use variable without dollar sign- ex: {name}.
+Instead of class for css jsx requires className property. style can be added using css, declaring a variable in which styles are written in key value format, and direct style can be wriiten insude dual curly braces
+
+V-3
+______

@@ -1,0 +1,6 @@
+v-1. 3 stages to load data
+declarng component-> declaring state with useState(initial value)-> declaring useEffect(()=>{},[])
+
+v-2.
+rsc -react stateless component
+npm run build

@@ -1,0 +1,11 @@
+.country {
+  background-color: rgba(78, 114, 121, 0.472);
+  color: white;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.country > img {
+  max-width: 200px;
+}

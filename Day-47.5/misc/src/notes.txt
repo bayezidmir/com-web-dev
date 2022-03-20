@@ -1,0 +1,16 @@
+module: dividing whole project into several parts and using them whenever needed is called module
+
+import can be done for single component or multiple component. ex:
+Single: import componentName from 'source'
+multiple: import {compo1, compo2} from 'source.
+
+Export could be of a compoment or multiple
+singlee: export default functionName
+multiple: export {functionName1, functionName2}
+
+Generating Json File
+
+creating on your own
+Google "Json Generator"
+keeping Json Generated data in .json file and fetching it 
+by using beecepter we can store json file

@@ -12,5 +12,5 @@ Generating Json File
 
 creating on your own
 Google "Json Generator"
-keeping Json Generated data in .json file and fetching it 
-by using beecepter we can store json file
+keeping Json Generated data in .json file in public folder and fetching it. Note: when importing the data.json at fetch from public folder just write file name not full origin
+mock api by using beecepter we can store json file
